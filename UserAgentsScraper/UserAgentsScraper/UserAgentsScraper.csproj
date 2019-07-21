@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{1BCF4993-2C92-45E9-94F8-81889AE7B215}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>GetRandomhttpIdentities</RootNamespace>
-    <AssemblyName>GetRandomhttpIdentities</AssemblyName>
+    <RootNamespace>UserAgentsScraper</RootNamespace>
+    <AssemblyName>UserAgentsScraper</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -53,8 +53,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scraper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
