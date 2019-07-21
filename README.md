@@ -1,2 +1,2 @@
 # UserAgentsScraper
-Scrapes Common User Agent Strings 
+Little Script that Scrapes Common User Agent Strings. Uses IronWebScraper 
